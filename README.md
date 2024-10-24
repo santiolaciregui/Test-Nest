@@ -24,32 +24,6 @@ npm install
 3. Crea un archivo `.env` en la raíz del proyecto:
 ```env
 OPENAI_API_KEY=tu_api_key_aqui
-PORT=3000
-MAX_PROMPT_LENGTH=500
-RATE_LIMIT_TTL=60
-RATE_LIMIT_MAX=100
-```
-
-## Estructura del Proyecto
-
-```
-src/
-├── main.ts
-├── app.module.ts
-├── ai/
-│   ├── ai.module.ts
-│   ├── ai.controller.ts
-│   ├── ai.service.ts
-│   └── dto/
-│       ├── prompt.dto.ts
-│       └── response.dto.ts
-├── common/
-│   ├── middleware/
-│   │   └── rate-limiter.middleware.ts
-│   └── validators/
-│       └── prompt.validator.ts
-└── config/
-    └── configuration.ts
 ```
 
 ## Instalación de Dependencias
